@@ -1,4 +1,4 @@
-# api-cloudmap-ecs-integration
+# apigateway-cloudmap-ecs-integration
 ![screenshot](Diagram.png)
 
 # Overview
@@ -20,10 +20,8 @@ By leveraging AWS Cloud Map for service discovery, the architecture allows dynam
 
 2. Build, Tag, and Push Docker Image:
 
-- Navigate to your application directory.
-- Build the Docker image.
-- Tag the image with the appropriate repository URI.
-- Push the image to the ECR repository.
+- Navigate to application directory.
+- Build, tag and push the Docker image to ECR repository.
 
 3. Configure CDK (Cloud Development Kit):
 
